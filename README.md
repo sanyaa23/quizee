@@ -59,30 +59,4 @@ submission, and displaying a leaderboard.
 - MongoDB
 
 
-## How To Use
 
-To clone and run this Website, you'll need [Git](https://git-scm.com) and [Node](https://nodejs.org/en/download/) installed on your computer.
-
-```bash
-# Clone this repository
-$ git clone https://github.com/harshit1142/Quizopia.git
-# Go into the repository
-$ cd Quizopia
-# Install dependencies
-$ npm install
-```
-
-Create .env.local file in side Newshash folder and add following text with your own api key.
-```
- MONGO_PROD_URI= "Your MongoDB connection link"
- JWT_KEY="jwt key "
-```
-Start frontend with following command.
-```
-$ npm start
-```
-Start backend with following command.
-```
-$ cd backend
-$ npm start
-```
